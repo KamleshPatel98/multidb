@@ -112,6 +112,24 @@ return [
             // 'trust_server_certificate' => env('DB_TRUST_SERVER_CERTIFICATE', 'false'),
         ],
 
+        'tenant' => [
+            'driver' => 'mysql',
+            'database' => null,
+            'host' => '127.0.0.1',
+            'username' => 'root',
+            'password' => '',
+            // And other options if needed ...
+        ],
+
+        'landlord' => [
+            'driver' => 'mysql',
+            'database' => 'name_of_landlord_db',
+            'host' => '127.0.0.1',
+            'username' => 'root',
+            'password' => '',
+            // And other options if needed ...
+        ],
+
     ],
 
     /*
